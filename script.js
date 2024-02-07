@@ -32,7 +32,6 @@ var baseFrame = context.getImageData(0, 0, window.innerWidth, window.innerHeight
 function drawStars() {
     for (var i = 0; i < stars; i++) {
         var star = starArray[i];
-
         context.beginPath();
         context.arc(star.x, star.y, star.radius, 0, 360);
         context.fillStyle = "hsla(" + star.hue + ", " + star.sat + "%, 88%, " + star.opacity + ")";
