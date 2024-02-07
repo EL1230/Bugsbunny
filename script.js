@@ -228,21 +228,21 @@ function drawText() {
         context.fillStyle = `rgba(45, 45, 255, ${secondOpacity})`;
     
         if (window.innerWidth < 600) {
-            drawTextWithLineBreaks(["You are one of the best things that", "has ever happened to me", "Iloveyouuu so much Bugsbunny ❤"], canvas.width / 2, (canvas.height/2 + 60), fontSize, lineHeight);
+            drawTextWithLineBreaks(["You are one of the best thing that", "has ever happened to me", "Iloveyouuu so much Bugsbunny ❤"], canvas.width / 2, (canvas.height/2 + 60), fontSize, lineHeight);
         } else {
-            context.fillText("You are one of the best things that has ever happened to me Iloveyouuu so much Bugsbunny ❤", canvas.width / 2, (canvas.height/2 + 50));
+            context.fillText("You are one of the best thing that has ever happened to me Iloveyouuu so much Bugsbunny ❤", canvas.width / 2, (canvas.height/2 + 50));
         }
     
         secondOpacity = secondOpacity + 0.01;
     }
     
 
-    if(frameNumber >= 3250 && frameNumber < 99999){
+    if(frameNumber >= 3000 && frameNumber < 99999){
         context.fillStyle = `rgba(45, 45, 255, ${thirdOpacity})`;
         context.fillText("Happy Valentine's Day My Palagi ❤", canvas.width/2, (canvas.height/2 + 155));
         thirdOpacity = thirdOpacity + 0.01;
 
-    }   
+    }  
 
      // Reset the shadow effect after drawing the text
      context.shadowColor = "transparent";
