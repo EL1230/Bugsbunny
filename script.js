@@ -112,9 +112,9 @@ function drawText() {
         context.fillStyle = `rgba(45, 45, 255, ${opacity})`;
 
         if (window.innerWidth < 600) {           //shortens long sentence for mobile screens
-            drawTextWithLineBreaks(["3 days ko din ginawa to, maikli lang naman,", "Syempre gagamitin ko skill ko HAHAHA"], canvas.width / 2, canvas.height / 2, fontSize, lineHeight);
+            drawTextWithLineBreaks(["3 days ko din ginawa to, maikli lang naman", "Syempre gagamitin ko skill ko HAHAHA"], canvas.width / 2, canvas.height / 2, fontSize, lineHeight);
         } else {
-            context.fillText("3 days ko din ginawa to, maikli lang naman, Syempre gagamitin ko skill ko HAHAHA", canvas.width/2, canvas.height/2);
+            context.fillText("3 days ko din ginawa to, maikli lang naman Syempre gagamitin ko skill ko HAHAHA", canvas.width/2, canvas.height/2);
         }
 
         opacity = opacity + 0.01;
@@ -123,9 +123,9 @@ function drawText() {
         context.fillStyle = `rgba(45, 45, 255, ${opacity})`;
         
         if (window.innerWidth < 600) {
-            drawTextWithLineBreaks(["3 days ko din ginawa to, maikli lang naman,", "Syempre gagamitin ko skill ko HAHAHA"], canvas.width / 2, canvas.height / 2, fontSize, lineHeight);
+            drawTextWithLineBreaks(["3 days ko din ginawa to, maikli lang naman", "Syempre gagamitin ko skill ko HAHAHA"], canvas.width / 2, canvas.height / 2, fontSize, lineHeight);
         } else {
-            context.fillText("3 days ko din ginawa to, maikli lang naman, Syempre gagamitin ko skill ko HAHAHA", canvas.width/2, canvas.height/2);
+            context.fillText("3 days ko din ginawa to, maikli lang naman Syempre gagamitin ko skill ko HAHAHA", canvas.width/2, canvas.height/2);
         }
 
         opacity = opacity - 0.01;
@@ -228,9 +228,9 @@ function drawText() {
         context.fillStyle = `rgba(45, 45, 255, ${secondOpacity})`;
     
         if (window.innerWidth < 600) {
-            drawTextWithLineBreaks(["You are one of the best thing that", "has ever happened to me", "Iloveyouuu so much Bugsbunny ❤"], canvas.width / 2, (canvas.height/2 + 60), fontSize, lineHeight);
+            drawTextWithLineBreaks(["Isa ka sa magandang nangyari sa 2023 ko", "Iloveyouuu so much Bugsbunny ❤"], canvas.width / 2, (canvas.height/2 + 60), fontSize, lineHeight);
         } else {
-            context.fillText("You are one of the best thing that has ever happened to me Iloveyouuu so much Bugsbunny ❤", canvas.width / 2, (canvas.height/2 + 50));
+            context.fillText("Isa ka sa magandang nangyari sa 2023 ko Iloveyouuu so much Bugsbunny ❤", canvas.width / 2, (canvas.height/2 + 50));
         }
     
         secondOpacity = secondOpacity + 0.01;
@@ -239,7 +239,7 @@ function drawText() {
 
     if(frameNumber >= 3000 && frameNumber < 99999){
         context.fillStyle = `rgba(45, 45, 255, ${thirdOpacity})`;
-        context.fillText("Happy Valentine's Day My Palagi ❤", canvas.width/2, (canvas.height/2 + 155));
+        context.fillText("Happy Valentine's Day My Palagi ❤", canvas.width/2, (canvas.height/2 + 140));
         thirdOpacity = thirdOpacity + 0.01;
 
     }  
